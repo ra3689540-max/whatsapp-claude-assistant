@@ -1,0 +1,13 @@
+node_modules/
+.env
+auth/
+state.json
+*.log
+bot.lock
+bot.old.log
+*.key
+server_key*
+expenses.csv
+bills/
+.claude_empty/
+loans.csv

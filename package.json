@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-claude-assistant",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node bot.ts",
+    "test": "node test/test_logic.ts",
+    "try": "node test/try_claude.ts test/demo_bill.jpg"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "pino": "10.4.0",
+    "qrcode-terminal": "0.12.0"
+  },
+  "version": "1.0.0",
+  "description": "Free WhatsApp assistant powered by Claude: voice-note summaries, expenses by text, bill photo reminders",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  }
+}
